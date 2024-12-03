@@ -26,6 +26,10 @@ h6 {
   padding: 0;
 }
 
+html{
+  overflow-x:hidden;
+}
+
 h1,
 h2,
 h3,

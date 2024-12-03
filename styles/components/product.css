@@ -130,3 +130,77 @@
         display: none;
     }
 }
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #505050; 
+}
+
+.footer__columns {
+    display: flex; 
+    justify-content: space-between; 
+    width: 100%; 
+    max-width: 1200px;
+}
+
+.footer__nav__one {
+    flex: 1; 
+    margin: 0 20px; 
+    display: flex;
+    position: relative;
+    top: 75px;
+}
+
+.footer__nav__two {
+    flex: 1; 
+    margin: 0 20px; 
+    display: flex;
+    padding-right: 20px;
+    position: relative;
+    right: -200px;
+    top: -69px;
+}
+
+.footer__nav__list {
+    list-style: none;
+    padding: 0; 
+    margin: 0; 
+}
+
+.footer__nav__item {
+    margin-bottom: 10px; 
+}
+
+.footer__nav__link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer__nav__link:hover {
+    text-decoration: underline; 
+}
+
+.footer__copyright {
+    width: 100%;
+    padding: 15px 80px;
+    background-color: #252525;
+    color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}   
+
+.logotipe{
+    position: relative;
+    right: -1133px;
+    top: -115px;
+}
+
+.YouTube{
+    position: relative;
+    right: -1270px;
+    top: -100px;
+}
